@@ -1,6 +1,6 @@
 package main
 
-import (
+import (Tatyana 
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -22,7 +22,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	gamePin := os.Args[1]
+	gamePin := 8418344
 
 	var dieLock sync.Mutex
 	connChan := make(chan *kahoot.Conn)
